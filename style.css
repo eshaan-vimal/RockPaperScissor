@@ -1,0 +1,110 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#choiceDisplay
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#choiceHeading
+{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.playerChoice
+{
+    margin: 0px 15px;
+    padding: 10px;
+    border-radius: 35px;
+    border: none;
+    font-size: 25px;
+    background-color: blueviolet;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.playerChoice:hover
+{
+    background-color: hsl(0, 100%, 50%);
+}
+.playerChoice:active
+{
+    background-color: hsl(80, 61%, 50%, 0.6);
+}
+
+#gameplayDisplay
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.gameplayHeadings
+{
+    font-size: 35px;
+}
+
+.playedDisplay
+{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 140px;
+}
+
+#playerPlayed
+{
+    background-color: blueviolet;
+}
+
+#computerPlayed
+{
+    background-color: tomato;
+}
+
+/* #gameLabel
+{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+} */
+
+#vs
+{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#scoreDisplay
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#scoreHeading
+{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.scoreStats
+{
+    margin: 5px;
+    padding: 0;
+    font-size: 25px;
+}
